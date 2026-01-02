@@ -35,6 +35,12 @@
             { "title": "传送们：其他学校资料", "mdPath": "docs/other-school.md" },
             { "title": "Rust编程语言", "mdPath": "docs/rust.md" }
         ]
+    },
+		{
+        "caption": "关于我",
+        "items": [
+            { "title": "2025年度总结", "mdPath": "docs/2025.md" }
+        ]
     }
 ]
 }
