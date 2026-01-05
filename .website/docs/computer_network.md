@@ -6,7 +6,7 @@
 
 ## 📄 题库
 
-- <a href="https://raw.githubusercontent.com/AntheaLaffy/SCAU-learn/main/通信与计算机网络/考试/期末题库.doc">1-5章</a>
+<a href="https://raw.githubusercontent.com/AntheaLaffy/SCAU-learn/main/通信与计算机网络/考试/期末题库.doc" download="期末题库.doc">1-5章</a>
 
 <div style="display:flex;justify-content:space-between;margin-top:50px;padding: 0 20px;">
 <button class="nav-btn" data-goto="-1">上一章 ⬅️</button>
