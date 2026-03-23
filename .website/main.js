@@ -12,6 +12,8 @@ let VISIBLE = [];
 const USED_IDX = new Set();
 let autoIdx = 1;
 const ANIM_STORAGE_KEY = 'scau-learn.anim-config';
+let activeRenderToken = 0;
+let activeContentController = null;
 
 const AnimConfig = {
     duration: 400,
@@ -102,27 +104,43 @@ function showLocalFileWarning() {
 async function renderContent(rec) {
     const box = document.getElementById('content');
     if (!box) return;
+    const renderToken = ++activeRenderToken;
+
+    if (activeContentController) {
+        activeContentController.abort();
+    }
+    activeContentController = new AbortController();
 
     box.classList.remove('active');
     box.style.transitionDuration = AnimConfig.duration + 'ms';
     box.style.transform = AnimConfig.mode === 'slide' ? `translateY(${AnimConfig.offset}px)` : 'translateY(0)';
 
     try {
-        const res = await fetch(CONFIG.baseUrl + rec.mdPath + '?t=' + Date.now());
+        const res = await fetch(CONFIG.baseUrl + rec.mdPath + '?t=' + Date.now(), {
+            signal: activeContentController.signal
+        });
         if (!res.ok) throw new Error('404');
         const txt = await res.text();
+        if (renderToken !== activeRenderToken) return;
         box.innerHTML = rec.mdPath.endsWith('.html') ? txt : marked.parse(txt);
-    } catch {
+    } catch (err) {
+        if (err && err.name === 'AbortError') return;
         try {
-            const errRes = await fetch(CONFIG.baseUrl + CONFIG.errorTemplate);
+            const errRes = await fetch(CONFIG.baseUrl + CONFIG.errorTemplate, {
+                signal: activeContentController.signal
+            });
             const errTxt = errRes.ok ? await errRes.text() : '# 内容未完工\n\n> 章节正在施工中...';
+            if (renderToken !== activeRenderToken) return;
             box.innerHTML = marked.parse(errTxt);
-        } catch {
+        } catch (fallbackErr) {
+            if (fallbackErr && fallbackErr.name === 'AbortError') return;
+            if (renderToken !== activeRenderToken) return;
             box.innerHTML = marked.parse('# 内容未完工\n\n> 无法加载错误模板');
         }
     }
 
     requestAnimationFrame(() => {
+        if (renderToken !== activeRenderToken) return;
         box.style.transform = 'translateY(0)';
         box.classList.add('active');
     });
@@ -136,8 +154,12 @@ function getRecordByHash(hash) {
 }
 
 function handleRoute(hash) {
-    const rec = getRecordByHash(hash);
-    if (!rec) return;
+    const rec = getRecordByHash(hash) || {
+        idx: -1,
+        rawPath: CONFIG.errorTemplate,
+        mdPath: CONFIG.errorTemplate,
+        visible: false
+    };
     renderContent(rec);
 
     document.querySelectorAll('.menu-list a').forEach(a => {
