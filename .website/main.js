@@ -11,6 +11,7 @@ let ALL = [];
 let VISIBLE = [];
 const USED_IDX = new Set();
 let autoIdx = 1;
+const ANIM_STORAGE_KEY = 'scau-learn.anim-config';
 
 const AnimConfig = {
     duration: 400,
@@ -59,6 +60,7 @@ function buildIndexSystem() {
     USED_IDX.clear();
     ALL.length = 0;
     VISIBLE.length = 0;
+    autoIdx = 1;
     
     // 收集已有的索引
     LIBRARY_DATA.forEach(sec => sec.items.forEach(it => {
@@ -162,7 +164,11 @@ function initSidebar() {
 
         items.forEach(it => {
             const li = document.createElement('li');
-            li.innerHTML = `<a href="#${it.rawPath}" data-idx="${it.idx}">${it.title}</a>`;
+            const link = document.createElement('a');
+            link.href = `#${encodeURIComponent(it.rawPath)}`;
+            link.dataset.idx = String(it.idx);
+            link.textContent = it.title;
+            li.appendChild(link);
             ul.appendChild(li);
         });
 
@@ -198,12 +204,64 @@ function applyAnimConfig({ duration, offset, mode } = {}) {
     if (typeof offset === 'number') AnimConfig.offset = offset;
     if (mode) AnimConfig.mode = mode;
     syncCssVar();
+    syncAnimControls();
+
+    try {
+        localStorage.setItem(ANIM_STORAGE_KEY, JSON.stringify(AnimConfig));
+    } catch (err) {
+        console.warn('Unable to persist animation config:', err);
+    }
 }
 
 function syncCssVar() {
     const root = document.documentElement;
     root.style.setProperty('--duration', AnimConfig.duration + 'ms');
     root.style.setProperty('--offset', AnimConfig.offset + 'px');
+}
+
+function syncAnimControls() {
+    const dur = document.getElementById('anim-duration');
+    const off = document.getElementById('anim-offset');
+    const durVal = document.getElementById('duration-val');
+    const offVal = document.getElementById('offset-val');
+
+    if (dur) dur.value = String(AnimConfig.duration);
+    if (off) off.value = String(AnimConfig.offset);
+    if (durVal) durVal.textContent = `${AnimConfig.duration}ms`;
+    if (offVal) offVal.textContent = `${AnimConfig.offset}px`;
+}
+
+function restoreAnimConfig() {
+    try {
+        const saved = JSON.parse(localStorage.getItem(ANIM_STORAGE_KEY) || 'null');
+        if (!saved || typeof saved !== 'object') return;
+        applyAnimConfig(saved);
+    } catch (err) {
+        console.warn('Unable to restore animation config:', err);
+    }
+}
+
+function openModal(id) {
+    const overlay = document.getElementById('settings-overlay');
+    const target = document.getElementById(id);
+    if (!overlay || !target) return;
+
+    overlay.style.display = 'flex';
+    document.querySelectorAll('.modal-content').forEach(modal => {
+        modal.style.display = modal.id === id ? 'block' : 'none';
+    });
+}
+
+function closeModal(event) {
+    const overlay = document.getElementById('settings-overlay');
+    if (!overlay) return;
+    if (event && event.target !== overlay) return;
+    overlay.style.display = 'none';
+}
+
+function quickSetAnim(duration, offset, mode) {
+    applyAnimConfig({ duration, offset, mode });
+    openModal('modal-anim');
 }
 
 /* 索引匹配引擎 */
@@ -233,11 +291,13 @@ document.addEventListener('click', e => {
     const btn = e.target.closest('.nav-btn[data-goto]');
     if (!btn) return;
     const rec = matchRecord(btn.dataset.goto);
-    if (rec) location.hash = `#${rec.rawPath}`;
+    if (rec) location.hash = `#${encodeURIComponent(rec.rawPath)}`;
 });
 
 window.addEventListener('DOMContentLoaded', () => {
     // 启动异步程序
+    restoreAnimConfig();
+    syncAnimControls();
     initApp();
 
     const home = document.getElementById('welcome-title');

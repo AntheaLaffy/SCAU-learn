@@ -28,17 +28,11 @@
             { "title": "概率论与数理统计", "mdPath": "docs/probability&statistics.md" },
             { "title": "通信与计算机网络", "mdPath": "docs/computer_network.md" },
             { "title": "管理学", "mdPath": "docs/management.md" },
-            { "title": "草稿", "mdPath": "docs/draft.md", "visible": false }
+            { "title": "毛概", "mdPath": "docs/mao.md" },
+            { "title": "线性代数", "mdPath": "docs/linear_algebra.md" }
         ]
     },
-        {
-        "caption": "其他资料",
-        "items": [
-            { "title": "传送们：其他学校资料", "mdPath": "docs/other-school.md" },
-            { "title": "Rust编程语言", "mdPath": "docs/rust.md" }
-        ]
-    },
-		{
+    {
         "caption": "关于我",
         "items": [
             { "title": "2025年度总结", "mdPath": "docs/2025.md" }

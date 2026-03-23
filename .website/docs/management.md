@@ -1,4 +1,4 @@
-<p style="color: #888; font-size: 0.8rem; margin-left: 10px;">🏠 /考试与作业/UNIX  </p>
+<p style="color: #888; font-size: 0.8rem; margin-left: 10px;">🏠 /考试与作业/管理学</p>
 
 # 课程介绍
 
@@ -6,7 +6,7 @@
 
 ## 📄 试卷
 
-- <a href="https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/管理学/2024A卷.pdf">2024A卷/a>
+- <a href="https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/管理学/2024A卷.pdf">2024A卷</a>
 - <a href="https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/管理学/2024A卷参考答案.pdf">2024A卷参考答案</a>
 
 <div style="display:flex;justify-content:space-between;margin-top:50px;padding: 0 20px;">
