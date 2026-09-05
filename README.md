@@ -6,6 +6,7 @@
 
 ## 快速入口
 
+- 网站：[SCAU-learn](https://anthealaffy.github.io/SCAU-learn/)
 - 仓库主页：[AntheaLaffy/SCAU-learn](https://github.com/AntheaLaffy/SCAU-learn)
 - 静态站点源码目录：[`.website/`](./.website)
 
@@ -38,7 +39,7 @@ pnpm install
 pnpm run dev
 ```
 
-执行 `pnpm run build` 会在 `.website/dist/` 生成可部署的静态文件。推送到 `main` 分支后，GitHub Actions 会自动构建并发布到 GitHub Pages；Cloudflare Workers 同样只发布这份构建产物。
+执行 `pnpm run build` 会在 `.website/dist/` 生成可部署的静态文件。推送到 `main` 分支后，GitHub Actions 会自动构建并发布到 GitHub Pages。
 
 ## 如何贡献资料
 
