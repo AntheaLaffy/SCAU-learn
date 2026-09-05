@@ -34,11 +34,11 @@
 
 ```bash
 cd .website
-npm install
-npm run dev
+pnpm install
+pnpm run dev
 ```
 
-执行 `npm run build` 会在 `.website/dist/` 生成可部署的静态文件。推送到 `main` 分支后，GitHub Actions 会自动构建并发布到 GitHub Pages。
+执行 `pnpm run build` 会在 `.website/dist/` 生成可部署的静态文件。推送到 `main` 分支后，GitHub Actions 会自动构建并发布到 GitHub Pages；Cloudflare Workers 同样只发布这份构建产物。
 
 ## 如何贡献资料
 
