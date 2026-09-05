@@ -1,84 +1,72 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="华南农业大学课程试卷、答案、课件与复习资料索引。" />
+    <meta name="theme-color" content="#176b4b" />
     <title>华南农业大学学习资料库</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext y='50' font-size='48'%3E%F0%9F%93%9A%3C/text%3E%3C/svg%3E">
-    <!-- 使用本地的 markdown 解析器 -->
-    <script src="md.js"></script>
-</head>
-<body>
+    <script>
+      try {
+        const theme = localStorage.getItem('scau-learn.theme');
+        if (theme === 'dark' || (!theme && matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.documentElement.dataset.theme = 'dark';
+        }
+      } catch {}
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">跳到正文</a>
+    <div class="app-shell">
+      <button class="nav-scrim" id="nav-scrim" type="button" aria-label="关闭课程导航"></button>
 
-<div class="layout">
-    <aside class="sidebar">
-        <h2 id="welcome-title">🏠华南农业大学学习资料库</h2>
-        <input id="search" placeholder="Search docs">
-        <nav id="menu"></nav>
-    </aside>
+      <aside class="sidebar" id="sidebar" aria-label="站点导航">
+        <a class="brand" href="#/" aria-label="返回资料库首页">
+          <span class="brand-mark"><img src="./picture/logo_green.svg" alt="" /></span>
+          <span class="brand-copy">
+            <strong>SCAU 学习资料库</strong>
+            <small>课程资料索引</small>
+          </span>
+        </a>
 
-    <main class="content" id="content">
-        <div id="loading">加载中...</div>
-    </main>
-</div>
-
-<div class="user-settings-panel">
-    <div class="setting-item" onclick="openModal('modal-account')">
-        <div class="setting-submenu" onclick="event.stopPropagation()">
-            <p style="margin:0; font-size: 12px; color: #999;">快速登录</p>
-            <input type="text" placeholder="学号/邮箱">
-            <button type="button">立即登录</button>
+        <div class="search-box">
+          <i data-lucide="search" aria-hidden="true"></i>
+          <label class="sr-only" for="course-search">搜索课程或页面</label>
+          <input id="course-search" type="search" placeholder="搜索课程或页面" autocomplete="off" />
+          <button id="clear-search" class="clear-search icon-button" type="button" aria-label="清空搜索" title="清空搜索">
+            <i data-lucide="x" aria-hidden="true"></i>
+          </button>
         </div>
-        <span>个人账户中心</span>
-        <div class="icon">👤</div>
+        <p class="search-status" id="search-status" aria-live="polite"></p>
+
+        <nav class="library-nav" id="library-nav" aria-label="课程资料"></nav>
+
+        <div class="sidebar-footer">
+          <a class="repo-link" href="https://github.com/AntheaLaffy/SCAU-learn" target="_blank" rel="noreferrer">
+            <i data-lucide="github" aria-hidden="true"></i>
+            <span>查看 GitHub 仓库</span>
+            <i data-lucide="external-link" aria-hidden="true"></i>
+          </a>
+          <button class="icon-button" id="theme-toggle" type="button" aria-label="切换深色模式" title="切换深色模式">
+            <i data-lucide="moon" aria-hidden="true"></i>
+          </button>
+        </div>
+      </aside>
+
+      <header class="mobile-header">
+        <button class="icon-button" id="menu-toggle" type="button" aria-label="打开课程导航" aria-controls="sidebar" aria-expanded="false" title="打开课程导航">
+          <i data-lucide="menu" aria-hidden="true"></i>
+        </button>
+        <a href="#/" class="mobile-brand">SCAU 学习资料库</a>
+        <button class="icon-button" id="mobile-theme-toggle" type="button" aria-label="切换深色模式" title="切换深色模式">
+          <i data-lucide="moon" aria-hidden="true"></i>
+        </button>
+      </header>
+
+      <main class="main" id="main-content" tabindex="-1">
+        <div class="content-frame" id="page-view" aria-live="polite"></div>
+      </main>
     </div>
-
-    <div class="setting-item" onclick="openModal('modal-anim')">
-        <div class="setting-submenu" onclick="event.stopPropagation()">
-            <p style="margin:0; font-size: 12px; color: #999;">切换动画框架</p>
-            <div style="padding: 5px 0; cursor:pointer;" onclick="quickSetAnim(400, 0, 'fade')">🌫️ 默认淡入 (0.4s)</div>
-            <div style="padding: 5px 0; cursor:pointer;" onclick="quickSetAnim(200, 0, 'fade')">⚡ 极速淡入 (0.2s)</div>
-            <div style="padding: 5px 0; cursor:pointer;" onclick="quickSetAnim(400, 15, 'slide')">✨ 标准位移 (15px)</div>
-
-        </div>
-        <span>交互动画参数</span>
-        <div class="icon">✨</div>
-    </div>
-</div>
-
-<div id="settings-overlay" class="settings-modal" onclick="closeModal(event)">
-    <div id="modal-account" class="modal-content" onclick="event.stopPropagation()">
-        <span class="modal-close" onclick="closeModal()">&times;</span>
-        <h3>👤 账户登录</h3>
-        <div class="control-group">
-            <label>学号 / Email</label>
-            <input type="text" style="width:100%; padding:10px; border:1px solid #ddd; border-radius:6px;">
-        </div>
-        <button class="btn-primary" style="width:100%; padding:12px; background:var(--link-color); color:white; border:none; border-radius:6px; cursor:pointer;">登录系统</button>
-    </div>
-
-    <div id="modal-anim" class="modal-content" onclick="event.stopPropagation()">
-        <span class="modal-close" onclick="closeModal()">&times;</span>
-        <h3>✨ 动画详细参数</h3>
-        <div class="control-group">
-            <label>过渡时长 (ms)</label>
-            <input type="range" min="100" max="1000" value="400" id="anim-duration">
-            <div style="display:flex; justify-content:space-between; font-size:12px; color:#999;">
-                <span>100ms</span><span id="duration-val">400ms</span><span>1000ms</span>
-            </div>
-        </div>
-        <div class="control-group">
-            <label>出场位移距离 (px)</label>
-            <input type="range" min="0" max="100" value="15" id="anim-offset">
-            <div style="display:flex; justify-content:space-between; font-size:12px; color:#999;">
-                <span>0px</span><span id="offset-val">15px</span><span>100px</span>
-            </div>
-        </div>
-        <button onclick="closeModal()" style="width:100%; padding:10px; cursor:pointer; background:#eee; border:none; border-radius:6px;">完成设置</button>
-    </div>
-</div>
-<!-- 正确的加载顺序：先数据，后逻辑 -->
-<script src="main.js"></script>
-
-</body>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
 </html>

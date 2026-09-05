@@ -25,13 +25,14 @@
         "items": [
             { "title": "Unix", "mdPath": "docs/unix.md" },
             { "title": "Web开发", "mdPath": "docs/web.md" },
+            { "title": "数字信号处理", "mdPath": "docs/digital_signal_processing.md" },
+            { "title": "数据结构", "mdPath": "docs/data_structure.md" },
             { "title": "概率论与数理统计", "mdPath": "docs/probability&statistics.md" },
             { "title": "通信与计算机网络", "mdPath": "docs/computer_network.md" },
             { "title": "管理学", "mdPath": "docs/management.md" },
             { "title": "毛概", "mdPath": "docs/mao.md" },
             { "title": "高等数学", "mdPath": "docs/advanced_mathematics.md" },
-            { "title": "线性代数", "mdPath": "docs/linear_algebra.md" },
-            { "title": "数据结构", "mdPath": "docs/data_structure.md" }
+            { "title": "线性代数", "mdPath": "docs/linear_algebra.md" }
         ]
     },
     {

@@ -1,0 +1,248 @@
+@media (max-width: 840px) {
+  .app-shell {
+    display: block;
+    padding-top: 58px;
+  }
+
+  .mobile-header {
+    position: fixed;
+    inset: 0 0 auto;
+    z-index: 25;
+    display: grid;
+    height: 58px;
+    grid-template-columns: 40px minmax(0, 1fr) 40px;
+    align-items: center;
+    gap: 10px;
+    padding: 0 12px;
+    border-bottom: 1px solid var(--border);
+    background: color-mix(in srgb, var(--surface) 94%, transparent);
+    backdrop-filter: blur(12px);
+  }
+
+  .mobile-brand {
+    overflow: hidden;
+    font-size: 15px;
+    font-weight: 750;
+    text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .sidebar {
+    position: fixed;
+    inset: 0 auto 0 0;
+    width: min(86vw, var(--sidebar-width));
+    height: 100dvh;
+    box-shadow: var(--shadow);
+    transform: translateX(-104%);
+    transition: transform 200ms ease;
+  }
+
+  .sidebar.is-open {
+    transform: translateX(0);
+  }
+
+  .nav-scrim {
+    position: fixed;
+    inset: 0;
+    z-index: 20;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: 0;
+    background: rgba(8, 14, 10, 0.46);
+    cursor: pointer;
+  }
+
+  .nav-open .nav-scrim {
+    display: block;
+  }
+
+  .nav-open {
+    overflow: hidden;
+  }
+
+  .main {
+    height: auto;
+    min-height: calc(100vh - 58px);
+    overflow: visible;
+  }
+
+  .content-frame {
+    width: min(100% - 36px, var(--content-width));
+    padding: 38px 0 56px;
+  }
+}
+
+@media (max-width: 620px) {
+  .content-frame {
+    width: min(100% - 28px, var(--content-width));
+    padding-top: 28px;
+  }
+
+  .home-heading {
+    padding: 0 0 28px;
+  }
+
+  .title-mark {
+    position: static;
+    width: 48px;
+    height: 48px;
+    margin-bottom: 16px;
+  }
+
+  .home-heading h1,
+  .document-heading h1 {
+    font-size: 30px;
+  }
+
+  .home-heading .lead {
+    font-size: 15px;
+  }
+
+  .library-stats {
+    margin: 20px 0 42px;
+  }
+
+  .library-stats div {
+    padding: 16px 10px;
+    text-align: center;
+  }
+
+  .library-stats strong {
+    font-size: 20px;
+  }
+
+  .library-stats span {
+    font-size: 11px;
+  }
+
+  .course-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contribution-note {
+    grid-template-columns: 40px minmax(0, 1fr);
+    padding: 18px 0;
+  }
+
+  .contribution-note > a {
+    grid-column: 1 / -1;
+    justify-content: center;
+  }
+
+  .breadcrumb {
+    margin-bottom: 25px;
+  }
+
+  .markdown-body {
+    padding-top: 24px;
+    font-size: 15px;
+  }
+
+  .textbook-panel summary {
+    grid-template-columns: 36px minmax(0, 1fr) auto;
+    gap: 10px;
+  }
+
+  .textbook-action {
+    width: 18px;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .textbook-action svg {
+    flex: 0 0 16px;
+  }
+
+  .textbook-content {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    padding: 14px;
+  }
+
+  .textbook-cover {
+    min-height: 200px;
+  }
+
+  .markdown-body h2 {
+    font-size: 22px;
+  }
+
+  .page-nav {
+    grid-template-columns: 1fr;
+  }
+
+  .page-nav > span {
+    display: none;
+  }
+
+  .page-colleges .markdown-body table,
+  .page-colleges .markdown-body tbody,
+  .page-colleges .markdown-body tr,
+  .page-colleges .markdown-body td {
+    display: block;
+    width: 100%;
+  }
+
+  .page-colleges .markdown-body thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+  }
+
+  .page-colleges .markdown-body tbody {
+    display: grid;
+    gap: 10px;
+  }
+
+  .page-colleges .markdown-body tr {
+    padding: 13px 14px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--surface);
+  }
+
+  .page-colleges .markdown-body td {
+    padding: 4px 0;
+    border: 0;
+    font-size: 13px;
+  }
+
+  .page-colleges .markdown-body td:first-child {
+    padding-bottom: 8px;
+    color: var(--text);
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  .page-colleges .markdown-body td:nth-child(2)::before,
+  .page-colleges .markdown-body td:nth-child(3)::before {
+    display: inline-block;
+    width: 72px;
+    color: var(--text-muted);
+    font-size: 12px;
+  }
+
+  .page-colleges .markdown-body td:nth-child(2)::before {
+    content: '学院官网';
+  }
+
+  .page-colleges .markdown-body td:nth-child(3)::before {
+    content: '培养方案';
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

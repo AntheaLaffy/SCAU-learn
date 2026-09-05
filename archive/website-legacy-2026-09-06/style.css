@@ -41,13 +41,32 @@ html, body {
 }
 
 /* 侧边栏头部 */
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    background: #2980b9;
+}
+
 .sidebar h2 {
+    flex: 1;
     font-size: 1.1rem;
     padding: 20px;
-    background: #2980b9;
     margin: 0;
     cursor: pointer;
     text-align: center;
+}
+
+.sidebar-toggle {
+    display: none;
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
 }
 
 /* 搜索框 */
@@ -101,7 +120,7 @@ html, body {
     background: white;
     padding: 0px 180px 50px 50px;
     box-shadow: -2px 0 5px rgba(0,0,0,0.05);
-    opacity: 0; /* 初始隐藏 */
+    opacity: 1;
     transition: opacity 0.4s ease, transform 0.4s ease; /* 关键：同时监听透明度和位移 */
 }
 
@@ -191,15 +210,61 @@ html, body {
 
 /* 确保警告框在侧栏右侧显示时位置正确（保留原逻辑的 left:300px） */
 @media (max-width: 720px) {
-    /* 小屏时把侧栏改为顶部滑出或其它行为（简单处理） */
+    html, body { height: auto; }
+
     .sidebar {
         width: 100%;
         height: auto;
         position: relative;
-        overflow: visible;
+        overflow: hidden;
     }
-    .layout { flex-direction: column; height: auto; }
-    .content { height: auto; overflow: visible; padding: 20px; }
+
+    .sidebar h2 {
+        padding: 16px 8px 16px 16px;
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .sidebar-toggle {
+        display: block;
+        flex: 0 0 44px;
+    }
+
+    .sidebar > #search,
+    .sidebar > #menu {
+        display: none;
+    }
+
+    .sidebar.is-open > #search,
+    .sidebar.is-open > #menu {
+        display: block;
+    }
+
+    .layout {
+        flex-direction: column;
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .content {
+        width: 100%;
+        min-height: calc(100vh - 56px);
+        height: auto;
+        overflow: visible;
+        padding: 12px 20px 40px;
+        box-shadow: none;
+    }
+
+    .content img {
+        max-width: 100%;
+        height: auto;
+        margin-left: 0 !important;
+    }
+
+    .modal-content {
+        width: calc(100% - 32px);
+        padding: 24px;
+    }
 }
 #welcome-title {
     cursor: pointer;
@@ -360,3 +425,6 @@ html, body {
 .control-group label { display: block; margin-bottom: 8px; font-weight: bold; font-size: 14px; }
 .control-group input[type="range"] { width: 100%; cursor: pointer; }
 
+@media (max-width: 720px) {
+    .user-settings-panel { display: none; }
+}

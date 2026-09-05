@@ -139,11 +139,9 @@ async function renderContent(rec) {
         }
     }
 
-    requestAnimationFrame(() => {
-        if (renderToken !== activeRenderToken) return;
-        box.style.transform = 'translateY(0)';
-        box.classList.add('active');
-    });
+    if (renderToken !== activeRenderToken) return;
+    box.style.transform = 'translateY(0)';
+    box.classList.add('active');
 }
 
 // 路由处理
@@ -217,6 +215,25 @@ function initSidebarSearch() {
             title.style.display = any ? '' : 'none';
             ul.style.display = any ? '' : 'none';
         });
+    });
+}
+
+function initMobileSidebar() {
+    const sidebar = document.querySelector('.sidebar');
+    const toggle = document.getElementById('sidebar-toggle');
+    if (!sidebar || !toggle) return;
+
+    toggle.addEventListener('click', () => {
+        const isOpen = sidebar.classList.toggle('is-open');
+        toggle.setAttribute('aria-expanded', String(isOpen));
+        toggle.title = isOpen ? '收起课程导航' : '展开课程导航';
+    });
+
+    sidebar.addEventListener('click', event => {
+        if (window.innerWidth > 720 || !event.target.closest('.menu-list a')) return;
+        sidebar.classList.remove('is-open');
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.title = '展开课程导航';
     });
 }
 
@@ -320,6 +337,7 @@ window.addEventListener('DOMContentLoaded', () => {
     // 启动异步程序
     restoreAnimConfig();
     syncAnimControls();
+    initMobileSidebar();
     initApp();
 
     const home = document.getElementById('welcome-title');
