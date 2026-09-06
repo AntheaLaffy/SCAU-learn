@@ -2,6 +2,26 @@ import { marked } from 'marked';
 
 const legacyChromeSelectors = ['.nav-btn'];
 
+const headingIconRules: Array<[RegExp, string]> = [
+  [/试卷|考试/, 'file-text'],
+  [/答案|解答/, 'clipboard-check'],
+  [/题库|练习|题目|索引|检查/, 'list-checks'],
+  [/复习|教材|资料说明/, 'book-open'],
+  [/查询|搜索/, 'search'],
+  [/入口|交流/, 'link'],
+  [/学院/, 'school'],
+  [/开发/, 'code'],
+  [/部署/, 'rocket'],
+  [/去重/, 'copy-check'],
+  [/分层/, 'layers'],
+  [/展示|浏览/, 'layout-list'],
+  [/维护|其他资料/, 'folder-open'],
+];
+
+function headingIcon(title: string): string {
+  return headingIconRules.find(([pattern]) => pattern.test(title))?.[1] ?? 'book-open';
+}
+
 marked.setOptions({
   gfm: true,
   breaks: false,
@@ -9,6 +29,16 @@ marked.setOptions({
 
 export function renderMarkdown(source: string, target: HTMLElement): void {
   target.innerHTML = marked.parse(source, { async: false }) as string;
+
+  target.querySelectorAll<HTMLHeadingElement>('h2').forEach((heading) => {
+    if (/^\p{Extended_Pictographic}/u.test(heading.textContent?.trim() ?? '')) return;
+
+    const icon = document.createElement('i');
+    icon.dataset.lucide = headingIcon(heading.textContent?.trim() ?? '');
+    icon.setAttribute('aria-hidden', 'true');
+    heading.classList.add('section-heading-with-icon');
+    heading.prepend(icon);
+  });
 
   for (const selector of legacyChromeSelectors) {
     target.querySelectorAll<HTMLElement>(selector).forEach((element) => {

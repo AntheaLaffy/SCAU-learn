@@ -156,7 +156,7 @@ export class App {
         </nav>
         <header class="document-heading">
           <p class="eyebrow">${section?.title ?? '资料页面'}</p>
-          <h1><i data-lucide="file-text" aria-hidden="true"></i><span>${page.title}</span></h1>
+          <h1>${page.title}</h1>
           <p>${page.summary}</p>
         </header>
         ${page.textbook ? this.renderTextbook(page.textbook) : ''}
