@@ -13,7 +13,7 @@ import colleges from '../content/colleges.md?raw';
 import unix from '../content/unix.md?raw';
 import userManual from '../content/user_manual.md?raw';
 import web from '../content/web.md?raw';
-import { eieCoursePages, eieSupplement } from './eie';
+import { eieCoursePages } from './eie';
 import type { LibraryPage, LibrarySection, SearchResult } from '../types';
 
 export const librarySections: LibrarySection[] = [
@@ -96,7 +96,7 @@ export const librarySections: LibrarySection[] = [
           coverHeight: 500,
         },
       },
-      { id: 'digital-signal-processing', title: '数字信号处理', summary: '复习提纲、题库与专项练习。', content: `${digitalSignalProcessing}\n\n${eieSupplement('digital-signal-processing')}`, legacyPath: 'docs/digital_signal_processing.md' },
+      { id: 'digital-signal-processing', title: '数字信号处理', summary: '复习提纲、题库、专项练习与往年试卷。', content: digitalSignalProcessing, legacyPath: 'docs/digital_signal_processing.md' },
       { id: 'data-structure', title: '数据结构', summary: '复习笔记与 2011-2025 年历年试卷答案。', content: dataStructure, legacyPath: 'docs/data_structure.md' },
       {
         id: 'java',

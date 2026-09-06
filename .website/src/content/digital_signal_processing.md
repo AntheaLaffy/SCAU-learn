@@ -1,30 +1,21 @@
-<p style="color: #888; font-size: 0.8rem; margin-left: 10px;">🏠 /试卷作业/数字信号处理</p>
-
 # 课程介绍
 
-这里整理了数字信号处理课程的复习题库、提纲、判断题专项与往年试卷。资料适用于人工智能与低空技术学院相关专业，具体考核范围请以当年任课教师通知为准。
+这里整理了数字信号处理课程的复习提纲、专项练习、题库和往年试卷。具体考核范围请以当年任课教师通知为准。
 
-## 📚 核心复习资料
+## 复习资料
 
-- <a href="https://github.com/AntheaLaffy/SCAU-learn/blob/main/数字信号处理/README(必看).md">资料说明与备考指南</a>
-- <a href="https://github.com/AntheaLaffy/SCAU-learn/blob/main/数字信号处理/总复习题库.md">总复习题库（2025 版）</a>
-- <a href="https://github.com/AntheaLaffy/SCAU-learn/blob/main/数字信号处理/复习提纲.md">复习提纲（2025 版）</a>
-- <a href="https://github.com/AntheaLaffy/SCAU-learn/blob/main/数字信号处理/判断专项.md">判断题专项（2025 版）</a>
+- [复习提纲](<https://github.com/AntheaLaffy/SCAU-learn/blob/main/数字信号处理/复习提纲.md>)
+- [AI 辅助知识点总结](<https://github.com/AntheaLaffy/SCAU-learn/blob/main/数字信号处理/ai总结的知识点.md>)
 
-## 📄 往年试卷
+## 题库与练习
 
-- <a href="https://github.com/AntheaLaffy/SCAU-learn/blob/main/数字信号处理/2022期末试卷.md">2022 期末试卷</a>
+- [总复习题库](<https://github.com/AntheaLaffy/SCAU-learn/blob/main/数字信号处理/总复习题库.md>)
+- [判断题专项](<https://github.com/AntheaLaffy/SCAU-learn/blob/main/数字信号处理/判断专项.md>)
+- [2025 年题库（含答案，DOCX）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数字信号处理/题库/202504数字信号处理---试题库含答案.docx>)
+- [2024 年题库（含答案，PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数字信号处理/题库/202404数字信号处理---试题库含答案.pdf>)
 
-> 部分答案与解析由 AI 辅助生成，请结合教材和课堂内容核验后使用。
+## 历年试卷
 
-<div style="display:flex;justify-content:space-between;margin-top:50px;padding: 0 20px;">
-<button class="nav-btn" data-goto="-1">上一章 ⬅️</button>
-<button class="nav-btn" data-goto="+1">下一章 ➡️</button>
-</div>
+- [2022 年期末试卷](<https://github.com/AntheaLaffy/SCAU-learn/blob/main/数字信号处理/2022期末试卷.md>)
 
----
-
-<p style="text-align: center; color: #777; margin-top: 50px; font-size: 0.9rem;">
-    版权声明： 网站由如月风铃 "nicolesandwich@outlook.com" 独立完成<br>
-    一切学习资料均来源于华南农业大学公开资料，若有侵权请告知，立即删除
-</p>
+> “AI 辅助知识点总结”及部分题库解析可能包含 AI 生成内容，请结合教材和课堂内容核验后使用。

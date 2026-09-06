@@ -308,9 +308,3 @@ export const eieCoursePages: LibraryPage[] = courseConfigs
     legacyPath: `docs/${config.id}.md`,
     keywords: config.keywords,
   }));
-
-export function eieSupplement(pageId: string): string {
-  const config = courseConfigs.find((candidate) => candidate.id === pageId && !candidate.newCourse);
-  if (!config) throw new Error(`Missing EIE supplement configuration for ${pageId}`);
-  return `## 新增补充资料\n\n${resourceGroups(filesFor(config), '###')}`;
-}

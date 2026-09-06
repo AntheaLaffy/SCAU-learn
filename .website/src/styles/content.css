@@ -267,8 +267,19 @@
 }
 
 .document-heading h1 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
   font-size: clamp(30px, 4vw, 42px);
   overflow-wrap: anywhere;
+}
+
+.document-heading h1 svg {
+  width: 0.82em;
+  height: 0.82em;
+  flex: 0 0 auto;
+  color: var(--accent);
+  stroke-width: 1.8;
 }
 
 .document-heading > p:last-child {
