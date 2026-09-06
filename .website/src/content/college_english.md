@@ -1,4 +1,4 @@
-这里收录大学英语课程资料、课文翻译与配套习题答案。
+这里收录大学英语期末考试题型、复习资料、课文翻译与配套习题答案。
 
 ## 习题解答
 
@@ -54,10 +54,6 @@
 - [新视野大学英语第三版第二册读写教程课文翻译（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/大学英语/课程资料/2018/上学期/新视野大学英语第三版第二册读写教程课文翻译.pdf>)
 - [新视野大学英语第三版第二册读写课文所有翻译（DOCX）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/大学英语/课程资料/2018/上学期/新视野大学英语第三版第二册读写课文所有翻译.docx>)
 - [英语新闻分类词汇（DOC）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/大学英语/课程资料/2018/上学期/英语新闻分类词汇.doc>)
-- [introduction（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/大学英语/课程资料/2018/上学期/introduction.pdf>)
-- [unit 2-1（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/大学英语/课程资料/2018/上学期/unit 2-1.pdf>)
-- [unit 5-1（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/大学英语/课程资料/2018/上学期/unit 5-1.pdf>)
-- [unit 5-3（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/大学英语/课程资料/2018/上学期/unit 5-3.pdf>)
 
 ### 2018 / 下学期
 
@@ -66,9 +62,6 @@
 - [泛读3答案（DOC）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/大学英语/课程资料/2018/下学期/泛读3答案.doc>)
 - [新视野大学英语第三版第三册课文翻译（DOCX）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/大学英语/课程资料/2018/下学期/新视野大学英语第三版第三册课文翻译.docx>)
 - [新视野大学英语第三版第三册课文翻译（Unit 1）（DOCX）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/大学英语/课程资料/2018/下学期/新视野大学英语第三版第三册课文翻译（Unit 1）.docx>)
-- [b3u1-1（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/大学英语/课程资料/2018/下学期/b3u1-1.pdf>)
-- [b3u1-2（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/大学英语/课程资料/2018/下学期/b3u1-2.pdf>)
-- [presentation topics（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/大学英语/课程资料/2018/下学期/presentation topics.ppt>)
 
 ---
 

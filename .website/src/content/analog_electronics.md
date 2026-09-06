@@ -1,4 +1,4 @@
-这里收录模拟电子技术的复习资料、题库、历年试卷、习题解答、仿真文件与课件。
+这里收录模拟电子技术的复习资料、题库、历年试卷、习题解答与仿真文件。
 
 ## 复习资料
 
@@ -92,28 +92,6 @@
 - [运放-求和电路（MS11）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/模电/仿真文件/第二章/运放-求和电路.ms11>)
 - [运放-微分电路（MS11）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/模电/仿真文件/第二章/运放-微分电路.ms11>)
 
-## 课件
-
-### 2018
-
-- [01 前言-wp0904（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/模电/课件/2018/01 前言-wp0904.ppt>)
-- [1-7周课程总结-1016（PPTX）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/模电/课件/2018/1-7周课程总结-1016.pptx>)
-- [02 运算放大器0906上课（PPTX）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/模电/课件/2018/02 运算放大器0906上课.pptx>)
-- [02 运算放大器0911上课（PPTX）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/模电/课件/2018/02 运算放大器0911上课.pptx>)
-- [3.二极管及其基本电路-20190918上课无（PPTX）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/模电/课件/2018/3.二极管及其基本电路-20190918上课无.pptx>)
-- [3.二极管及其基本电路-20190925上课无（PPTX）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/模电/课件/2018/3.二极管及其基本电路-20190925上课无.pptx>)
-- [4（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/模电/课件/2018/4.ppt>)
-- [5.双极结型三极管及其放大电路-1009无（PPTX）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/模电/课件/2018/5.双极结型三极管及其放大电路-1009无.pptx>)
-- [5.双极结型三极管及其放大电路-1011（PPTX）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/模电/课件/2018/5.双极结型三极管及其放大电路-1011.pptx>)
-- [7.模拟集成电路（PPTX）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/模电/课件/2018/7.模拟集成电路.pptx>)
-- [08 反馈放大电路（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/模电/课件/2018/08 反馈放大电路.ppt>)
-- [09 功率放大电路（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/模电/课件/2018/09 功率放大电路.ppt>)
-- [11.直流稳压电源（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/模电/课件/2018/11.直流稳压电源.ppt>)
-- [两种载流子（SWF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/模电/课件/2018/两种载流子.swf>)
-- [模电复习（PPTX）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/模电/课件/2018/模电复习.pptx>)
-- [PN结的单向导电性（SWF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/模电/课件/2018/PN结的单向导电性.swf>)
-- [PN结的形成（SWF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/模电/课件/2018/PN结的形成.swf>)
-- [Q点与波形失真（SWF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/模电/课件/2018/Q点与波形失真.swf>)
 
 ---
 

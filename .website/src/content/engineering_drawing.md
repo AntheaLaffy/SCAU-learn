@@ -1,4 +1,4 @@
-这里收录工程制图 B 的复习资料、历年试卷、习题解答与课程课件。
+这里收录工程制图 B 的复习资料、历年试卷与习题解答。
 
 ## 复习资料
 
@@ -33,21 +33,6 @@
 - [第五章轴测图（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/工程制图B/习题解答/第五章轴测图.ppt>)
 - [习题解答目录（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/工程制图B/习题解答/习题解答目录.ppt>)
 
-## 课件
-
-- [0绪论（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/工程制图B/课件/0绪论.ppt>)
-- [1制图基本知识（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/工程制图B/课件/1制图基本知识.ppt>)
-- [2 投影基础（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/工程制图B/课件/2 投影基础.ppt>)
-- [3基本立体的投影（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/工程制图B/课件/3基本立体的投影.ppt>)
-- [4组合体的投影（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/工程制图B/课件/4组合体的投影.ppt>)
-- [5轴测图（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/工程制图B/课件/5轴测图.ppt>)
-- [6机件的表达方法（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/工程制图B/课件/6机件的表达方法.ppt>)
-- [7标准件与常用件（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/工程制图B/课件/7标准件与常用件.ppt>)
-- [8零件图（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/工程制图B/课件/8零件图.PPT>)
-- [9装配图（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/工程制图B/课件/9装配图.ppt>)
-- [10电气制图简介（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/工程制图B/课件/10电气制图简介.ppt>)
-- [11 计算机绘图基础（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/工程制图B/课件/11 计算机绘图基础.ppt>)
-- [多媒体课件目录（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/工程制图B/课件/多媒体课件目录.ppt>)
 
 ---
 

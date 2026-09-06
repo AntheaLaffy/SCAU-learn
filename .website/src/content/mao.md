@@ -1,4 +1,4 @@
-这里收录毛泽东思想和中国特色社会主义理论体系概论的复习资料、题库、习题解答、课件与历年试卷。
+这里收录毛泽东思想和中国特色社会主义理论体系概论的复习资料、题库、习题解答与历年试卷。
 
 ## 复习资料
 
@@ -15,9 +15,6 @@
 
 - [2013修订版课后习题答案（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/毛概/习题解答/2013修订版课后习题答案.pdf>)
 
-## 课件
-
-- [课程课件（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/毛概/课件/课程课件.ppt>)
 
 ## 历年试卷
 

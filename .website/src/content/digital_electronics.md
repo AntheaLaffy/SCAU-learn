@@ -1,4 +1,4 @@
-这里收录数字电子技术的复习资料、题库、历年试卷、习题解答与课件。
+这里收录数字电子技术的复习资料、题库、历年试卷与习题解答。
 
 ## 复习资料
 
@@ -27,15 +27,6 @@
 
 - [数字电子技术基础课后习题解答（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数电/习题解答/数字电子技术基础课后习题解答.pdf>)
 
-## 课件
-
-- [数字电路第六版第01章（PPTX）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数电/课件/数字电路第六版第01章.pptx>)
-- [数字电路第六版第02章（PPTX）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数电/课件/数字电路第六版第02章.pptx>)
-- [数字电路第六版第03章（PPTX）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数电/课件/数字电路第六版第03章.pptx>)
-- [数字电路第六版第04章（PPTX）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数电/课件/数字电路第六版第04章.pptx>)
-- [数字电路第六版第05章（PPTX）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数电/课件/数字电路第六版第05章.pptx>)
-- [数字电路第六版第06章（PPTX）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数电/课件/数字电路第六版第06章.pptx>)
-- [数字电路第六版第09章（PPTX）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数电/课件/数字电路第六版第09章.pptx>)
 
 ---
 

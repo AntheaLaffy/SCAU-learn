@@ -1,4 +1,4 @@
-这里收录 C 语言程序设计的考试范围、题库、历年试卷、习题解答与课程课件。
+这里收录 C 语言程序设计的考试范围、题库、历年试卷与习题解答。
 
 ## 复习资料
 
@@ -27,24 +27,6 @@
 
 - [课后习题与实验题讲解（DOCX）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/C语言/习题解答/课后习题与实验题讲解.docx>)
 
-## 课件
-
-- [第1章 C语言程序设计概述（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/C语言/课件/第1章 C语言程序设计概述.ppt>)
-- [第1章-高级语言程序设计C-概述（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/C语言/课件/第1章-高级语言程序设计C-概述.ppt>)
-- [第2章 基本数据类型和表达式（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/C语言/课件/第2章 基本数据类型和表达式.ppt>)
-- [第3章 C语言程序设计初步（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/C语言/课件/第3章 C语言程序设计初步.ppt>)
-- [第4章 选择结构程序设计（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/C语言/课件/第4章 选择结构程序设计.ppt>)
-- [第二章 计算机系统平台-2.1（PPTX）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/C语言/课件/第二章 计算机系统平台-2.1.pptx>)
-- [第二章 计算机系统平台-2.2（PPTX）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/C语言/课件/第二章 计算机系统平台-2.2.pptx>)
-- [第二章 计算机系统平台-2.3（PPTX）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/C语言/课件/第二章 计算机系统平台-2.3.pptx>)
-- [第二章 计算机系统平台-2.4（PPTX）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/C语言/课件/第二章 计算机系统平台-2.4.pptx>)
-- [第二章 计算机系统平台-2.4（版本2）（PPTX）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/C语言/课件/第二章 计算机系统平台-2.4（版本2）.pptx>)
-- [第一章 计算机与信息处理-1.4（PPTX）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/C语言/课件/第一章 计算机与信息处理-1.4.pptx>)
-- [第一章 计算机与信息处理1.1-3（PPTX）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/C语言/课件/第一章 计算机与信息处理1.1-3.pptx>)
-- [经典C语言程序设计100例（DOC）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/C语言/课件/经典C语言程序设计100例.doc>)
-- [课程介绍 & 公共邮箱（PPTX）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/C语言/课件/课程介绍 & 公共邮箱.pptx>)
-- [最新C语言程序设计_上机习题答案（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/C语言/课件/最新C语言程序设计_上机习题答案.pdf>)
-- [printf函数的格式字符g的用法（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/C语言/课件/printf函数的格式字符g的用法.pdf>)
 
 ---
 

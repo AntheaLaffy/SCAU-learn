@@ -1,4 +1,4 @@
-这里收录微机原理与接口技术的复习资料、历年试卷、实验资料、习题解答与课件。
+这里收录微机原理与接口技术的复习资料、历年试卷、实验资料与习题解答。
 
 ## 复习资料
 
@@ -29,35 +29,6 @@
 - [微机原理与应用实验指导书（DOC）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/微机原理/实验资料/微机原理与应用实验指导书.doc>)
 - [Proteus 8086实验指导书（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/微机原理/实验资料/Proteus 8086实验指导书.pdf>)
 
-## 课件
-
-### 参考课件
-
-- [【Chapter2】 8088系统总线（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/微机原理/课件/参考课件/【Chapter2】 8088系统总线.pdf>)
-- [【Chapter2】8088微处理器（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/微机原理/课件/参考课件/【Chapter2】8088微处理器.pdf>)
-- [【Chapter2】8088主要引线及内部结构（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/微机原理/课件/参考课件/【Chapter2】8088主要引线及内部结构.pdf>)
-- [【Chapter2】8088CPU内部寄存器（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/微机原理/课件/参考课件/【Chapter2】8088CPU内部寄存器.pdf>)
-- [【Chapter2】实模式存储器寻址（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/微机原理/课件/参考课件/【Chapter2】实模式存储器寻址.pdf>)
-- [【Chapter2】微处理器小结（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/微机原理/课件/参考课件/【Chapter2】微处理器小结.pdf>)
-- [【Chapter3】寻址方式（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/微机原理/课件/参考课件/【Chapter3】寻址方式.pdf>)
-- [【Chapter3】指令（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/微机原理/课件/参考课件/【Chapter3】指令.pdf>)
-- [【Chapter3】指令概述（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/微机原理/课件/参考课件/【Chapter3】指令概述.pdf>)
-- [【Chapter4】汇编语言程序设计（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/微机原理/课件/参考课件/【Chapter4】汇编语言程序设计.pdf>)
-- [【Chapter5】半导体存储器（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/微机原理/课件/参考课件/【Chapter5】半导体存储器.pdf>)
-- [【Chapter6】输入输出与中断（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/微机原理/课件/参考课件/【Chapter6】输入输出与中断.pdf>)
-- [【Chapter7】可编程数字接口（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/微机原理/课件/参考课件/【Chapter7】可编程数字接口.pdf>)
-
-### 华农课件
-
-- [01 计算机基础知识（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/微机原理/课件/华农课件/01 计算机基础知识.ppt>)
-- [02 8086 系统结构 （PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/微机原理/课件/华农课件/02 8086 系统结构 .ppt>)
-- [03 8086的指令系统（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/微机原理/课件/华农课件/03 8086的指令系统.ppt>)
-- [04 8086汇编语言程序设计（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/微机原理/课件/华农课件/04 8086汇编语言程序设计.ppt>)
-- [05 存储器原理与接口（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/微机原理/课件/华农课件/05 存储器原理与接口.ppt>)
-- [06 微型计算机的输入输出（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/微机原理/课件/华农课件/06 微型计算机的输入输出.ppt>)
-- [07 可编程接口芯片（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/微机原理/课件/华农课件/07 可编程接口芯片.ppt>)
-- [09 中断与中断管理（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/微机原理/课件/华农课件/09 中断与中断管理.ppt>)
-- [绪论（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/微机原理/课件/华农课件/绪论.ppt>)
 
 ## 教材
 

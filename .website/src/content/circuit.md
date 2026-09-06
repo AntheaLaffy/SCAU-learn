@@ -1,4 +1,4 @@
-这里收录电路课程的复习资料、历年试卷、习题解答与课件。
+这里收录电路课程的复习资料、历年试卷与习题解答。
 
 ## 复习资料
 
@@ -31,19 +31,6 @@
 - [2018级作业A（DOC）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/电路/习题解答/2018级作业A.doc>)
 - [第五版学习指导与课后习题详解（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/电路/习题解答/第五版学习指导与课后习题详解.pdf>)
 
-## 课件
-
-- [01a（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/电路/课件/01a.ppt>)
-- [02a（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/电路/课件/02a.ppt>)
-- [03a（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/电路/课件/03a.ppt>)
-- [04a（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/电路/课件/04a.ppt>)
-- [06a（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/电路/课件/06a.ppt>)
-- [07a（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/电路/课件/07a.ppt>)
-- [08a（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/电路/课件/08a.ppt>)
-- [09a（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/电路/课件/09a.ppt>)
-- [10a（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/电路/课件/10a.ppt>)
-- [12a（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/电路/课件/12a.ppt>)
-- [14a（PPT）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/电路/课件/14a.ppt>)
 
 ---
 
