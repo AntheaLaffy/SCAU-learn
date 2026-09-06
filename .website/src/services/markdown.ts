@@ -3,7 +3,6 @@ import { marked } from 'marked';
 const legacyChromeSelectors = ['.nav-btn'];
 
 const headingIconRules: Array<[RegExp, string]> = [
-  [/试卷|考试/, 'file-text'],
   [/答案|解答/, 'clipboard-check'],
   [/题库|练习|题目|索引|检查/, 'list-checks'],
   [/复习|教材|资料说明/, 'book-open'],
@@ -31,10 +30,15 @@ export function renderMarkdown(source: string, target: HTMLElement): void {
   target.innerHTML = marked.parse(source, { async: false }) as string;
 
   target.querySelectorAll<HTMLHeadingElement>('h2').forEach((heading) => {
-    if (/^\p{Extended_Pictographic}/u.test(heading.textContent?.trim() ?? '')) return;
+    const title = heading.textContent?.trim() ?? '';
+    if (/^\p{Extended_Pictographic}/u.test(title)) return;
+    if (/试卷|考试/.test(title)) {
+      heading.prepend('📄 ');
+      return;
+    }
 
     const icon = document.createElement('i');
-    icon.dataset.lucide = headingIcon(heading.textContent?.trim() ?? '');
+    icon.dataset.lucide = headingIcon(title);
     icon.setAttribute('aria-hidden', 'true');
     heading.classList.add('section-heading-with-icon');
     heading.prepend(icon);
