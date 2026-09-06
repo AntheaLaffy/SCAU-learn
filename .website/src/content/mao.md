@@ -1,34 +1,22 @@
-<p style="color: #888; font-size: 0.8rem; margin-left: 10px;">🏠 /考试与作业/毛概</p>
-
 # 课程介绍
 
-当前页面整理了仓库中已收录的《毛概》相关试卷与纯题目资料，方便按年份快速查找和集中练习。
+当前页面整理了仓库中已收录的《毛概》相关试卷与纯题目资料，方便按年份和学期查找。
 
-## 📚 题目汇总
+## 题目汇总
 
-- <a href="https://github.com/AntheaLaffy/SCAU-learn/blob/main/毛概/questions_only.md">历年题目汇总（不含答案）</a>
+- [历年题目汇总（不含答案）](<https://github.com/AntheaLaffy/SCAU-learn/blob/main/毛概/questions_only.md>)
 
-## 📄 试卷
+## 历年试卷
 
-- <a href="https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/毛概/17一.pdf">17一.pdf</a>
-- <a href="https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/毛概/18二.pdf">18二.pdf</a>
-- <a href="https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/毛概/19一.pdf">19一.pdf</a>
-- <a href="https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/毛概/19一A.pdf">19一A.pdf</a>
-- <a href="https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/毛概/19二.pdf">19二.pdf</a>
-- <a href="https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/毛概/19二A.pdf">19二A.pdf</a>
-- <a href="https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/毛概/20一.pdf">20一.pdf</a>
-- <a href="https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/毛概/20二A.pdf">20二A.pdf</a>
-- <a href="https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/毛概/21二.pdf">21二.pdf</a>
-- <a href="https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/毛概/23一.pdf">23一.pdf</a>
-
-<div style="display:flex;justify-content:space-between;margin-top:50px;padding: 0 20px;">
-<button class="nav-btn" data-goto="-1">上一章 ⬅️</button>
-<button class="nav-btn" data-goto="+1">下一章 ➡️</button>
-</div>
+| 年份 | 第一学期 | 第二学期 |
+| --- | --- | --- |
+| 2023 | [试卷（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/毛概/23一.pdf>) | - |
+| 2021 | - | [试卷（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/毛概/21二.pdf>) |
+| 2020 | [试卷（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/毛概/20一.pdf>) | [A 卷（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/毛概/20二A.pdf>) |
+| 2019 | [试卷（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/毛概/19一.pdf>)<br>[A 卷（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/毛概/19一A.pdf>) | [试卷（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/毛概/19二.pdf>)<br>[A 卷（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/毛概/19二A.pdf>) |
+| 2018 | - | [试卷（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/毛概/18二.pdf>) |
+| 2017 | [试卷（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/毛概/17一.pdf>) | - |
 
 ---
 
-<p style="text-align: center; color: #777; margin-top: 50px; font-size: 0.9rem;">
-    版权声明： 网站由如月风铃 "nicolesandwich@outlook.com" 独立完成<br>
-    一切学习资料均来源于华南农业大学公开资料，若有侵权请告知，立即删除
-</p>
+资料仅供学习交流使用，具体考试范围请以任课教师通知为准。
