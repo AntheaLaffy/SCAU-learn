@@ -1,27 +1,30 @@
-<p style="color: #888; font-size: 0.8rem; margin-left: 10px;">🏠 /考试与作业/数据结构  </p>
+# 数据结构
 
-# 课程介绍
+这里收录 C 语言版数据结构课程的复习笔记，以及 2011-2025 年间的历年试卷与参考答案。
 
-该资料库目前是c语言版的数据结构，试卷年代较老，仅供参考
+## 复习资料
 
-## 📄 试卷与答案
+- [复习笔记](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数据结构/复习资料/复习笔记.pdf>)
 
-- <a href="https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数据结构/2017春数据结构试卷（A）.doc">17年试卷</a>
-- <a href="https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数据结构/2017年春数据结构答案（A）.docx">17年试卷答案</a>
-- <a href="https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数据结构/2018春数据结构答案（A）.doc">18年答案</a>
-- <a href="https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数据结构/2018春数据结构试卷（A）.doc">18年试卷</a>
-- <a href="https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数据结构/2019春数据结构答案（A）.doc">19年答案</a>
-- <a href="https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数据结构/2019春数据结构试卷（A）.doc">19年试卷</a>
+## 历年试卷
 
-<div style="display:flex;justify-content:space-between;margin-top:50px;padding: 0 20px;">
-<button class="nav-btn" data-goto="-1">上一章 ⬅️</button>
-<button class="nav-btn" data-goto="+1">下一章 ➡️</button>
-</div>
+| 学年 | 试卷 | 参考答案 |
+| --- | --- | --- |
+| 2024-2025 | [A 卷](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数据结构/历年试卷/2024-2025/A卷.docx>) | [A 卷参考答案](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数据结构/历年试卷/2024-2025/A卷参考答案.docx>) |
+| 2023-2024 | [A 卷](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数据结构/历年试卷/2023-2024/A卷.pdf>) | [A 卷参考答案](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数据结构/历年试卷/2023-2024/A卷参考答案.pdf>) |
+| 2022-2023 | [A 卷](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数据结构/历年试卷/2022-2023/A卷.doc>) | [A 卷参考答案](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数据结构/历年试卷/2022-2023/A卷参考答案.docx>) |
+| 2021-2022 | [A 卷](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数据结构/历年试卷/2021-2022/A卷.doc>) | [A 卷参考答案](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数据结构/历年试卷/2021-2022/A卷参考答案.docx>) |
+| 2020-2021 | [A 卷](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数据结构/历年试卷/2020-2021/A卷.docx>) | [A 卷参考答案](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数据结构/历年试卷/2020-2021/A卷参考答案.docx>) |
+| 2019-2020 | [A 卷](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数据结构/历年试卷/2019-2020/A卷.doc>) | [A 卷参考答案](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数据结构/历年试卷/2019-2020/A卷参考答案.doc>) |
+| 2018-2019 | [A 卷](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数据结构/历年试卷/2018-2019/A卷.doc>) | [A 卷参考答案](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数据结构/历年试卷/2018-2019/A卷参考答案.doc>) |
+| 2017-2018 | [A 卷](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数据结构/历年试卷/2017-2018/A卷.doc>) | [A 卷参考答案](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数据结构/历年试卷/2017-2018/A卷参考答案.doc>) |
+| 2016-2017 | [A 卷](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数据结构/历年试卷/2016-2017/A卷.doc>) | [A 卷参考答案](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数据结构/历年试卷/2016-2017/A卷参考答案.docx>) |
+| 2015-2016 | [A 卷](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数据结构/历年试卷/2015-2016/A卷.doc>) | [A 卷参考答案](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数据结构/历年试卷/2015-2016/A卷参考答案.doc>) |
+| 2014-2015 | [A 卷](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数据结构/历年试卷/2014-2015/A卷.doc>) | [A 卷参考答案](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数据结构/历年试卷/2014-2015/A卷参考答案.doc>) |
+| 2013-2014 | [A 卷](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数据结构/历年试卷/2013-2014/A卷.doc>) | [A 卷参考答案](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数据结构/历年试卷/2013-2014/A卷参考答案.doc>) |
+| 2012-2013 | [A 卷](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数据结构/历年试卷/2012-2013/A卷.doc>) | [A 卷参考答案](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数据结构/历年试卷/2012-2013/A卷参考答案.doc>) |
+| 2011-2012 | [A 卷](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数据结构/历年试卷/2011-2012/A卷.doc>) | [A 卷参考答案](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数据结构/历年试卷/2011-2012/A卷参考答案.doc>) |
 
----
+### 年份不详
 
-<p style="text-align: center; color: #777; margin-top: 50px; font-size: 0.9rem;">
-    版权声明： 网站由如月风铃 "nicolesandwich@outlook.com" 独立完成<br>
-    一切学习资料均来源于华南农业大学公开资料，若有侵权请告知，立即删除
-    （本部分是我https://github.com/yuanarcsin提交的，欢迎关注doge）
-</p>
+- [试卷（作答版）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/数据结构/历年试卷/年份不详/试卷（作答版）.pdf>)

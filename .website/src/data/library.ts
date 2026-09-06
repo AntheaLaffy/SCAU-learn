@@ -97,7 +97,7 @@ export const librarySections: LibrarySection[] = [
         },
       },
       { id: 'digital-signal-processing', title: '数字信号处理', summary: '复习提纲、题库与专项练习。', content: `${digitalSignalProcessing}\n\n${eieSupplement('digital-signal-processing')}`, legacyPath: 'docs/digital_signal_processing.md' },
-      { id: 'data-structure', title: '数据结构', summary: '历年试卷与参考答案。', content: `${dataStructure}\n\n${eieSupplement('data-structure')}`, legacyPath: 'docs/data_structure.md' },
+      { id: 'data-structure', title: '数据结构', summary: '复习笔记与 2011-2025 年历年试卷答案。', content: dataStructure, legacyPath: 'docs/data_structure.md' },
       {
         id: 'java',
         title: 'Java 程序设计',
