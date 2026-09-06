@@ -1,5 +1,4 @@
 import type { LibraryPage } from '../types';
-import complexFunctions from '../content/complex_functions.md?raw';
 
 const RAW_BASE = 'https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/';
 
@@ -135,7 +134,6 @@ interface CourseConfig {
   prefixes: string[];
   keywords?: string[];
   newCourse?: boolean;
-  content?: string;
 }
 
 const courseConfigs: CourseConfig[] = [
@@ -146,7 +144,6 @@ const courseConfigs: CourseConfig[] = [
     intro: '这里收录了 C 语言程序设计的考试范围、公共题库以及 2020-2024 年试卷与参考答案。',
     prefixes: ['C语言/'],
     keywords: ['C语言', '程序设计', '公共C题库'],
-    newCourse: true,
   },
   {
     id: 'signals-and-systems',
@@ -173,8 +170,6 @@ const courseConfigs: CourseConfig[] = [
     intro: '这里收录了复变函数与积分变换 2020-2025 年的期末试卷、参考答案与复习题库。',
     prefixes: ['复变函数/'],
     keywords: ['复变函数', '积分变换'],
-    newCourse: true,
-    content: complexFunctions,
   },
   {
     id: 'digital-electronics',
@@ -183,7 +178,6 @@ const courseConfigs: CourseConfig[] = [
     intro: '这里收录了数字电子技术历年试卷、参考答案以及相关真值表资料。',
     prefixes: ['数电/'],
     keywords: ['数电', '数字电路'],
-    newCourse: true,
   },
   {
     id: 'analog-electronics',
@@ -192,7 +186,6 @@ const courseConfigs: CourseConfig[] = [
     intro: '这里收录了模拟电子技术历年试卷与七组小测答案。',
     prefixes: ['模电/'],
     keywords: ['模电', '模拟电路'],
-    newCourse: true,
   },
   {
     id: 'electromagnetics',
@@ -210,7 +203,6 @@ const courseConfigs: CourseConfig[] = [
     intro: '这里收录了电路课程试卷、内容总结以及配套课后习题参考答案。',
     prefixes: ['电路/'],
     keywords: ['电路原理'],
-    newCourse: true,
   },
   {
     id: 'advanced-mathematics-1',
@@ -219,7 +211,6 @@ const courseConfigs: CourseConfig[] = [
     intro: '这里收录了高等数学 AI 的章节题库、历年试卷合集与参考答案。',
     prefixes: ['高数I/'],
     keywords: ['高数AI', '高数上', '高等数学上'],
-    newCourse: true,
   },
   {
     id: 'digital-signal-processing',
@@ -294,7 +285,6 @@ function resourceGroups(files: string[], headingLevel = '##'): string {
 }
 
 function pageContent(config: CourseConfig): string {
-  if (config.content) return config.content;
   return `# 课程介绍\n\n${config.intro}\n\n${resourceGroups(filesFor(config))}\n\n---\n\n资料仅供学习交流使用，具体考试范围请以任课教师通知为准。`;
 }
 

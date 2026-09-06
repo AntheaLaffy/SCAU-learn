@@ -1,16 +1,31 @@
 import advancedMathematics from '../content/advanced_mathematics.md?raw';
+import advancedMathematics1 from '../content/advanced_mathematics_1.md?raw';
+import analogElectronics from '../content/analog_electronics.md?raw';
+import cLanguage from '../content/c_language.md?raw';
+import circuit from '../content/circuit.md?raw';
+import collegeChinese from '../content/college_chinese.md?raw';
+import collegeEnglish from '../content/college_english.md?raw';
 import computerNetwork from '../content/computer_network.md?raw';
+import complexFunctions from '../content/complex_functions.md?raw';
+import controlEngineering from '../content/control_engineering.md?raw';
 import dataStructure from '../content/data_structure.md?raw';
 import developerManual from '../content/developer_manual.md?raw';
+import digitalElectronics from '../content/digital_electronics.md?raw';
 import digitalSignalProcessing from '../content/digital_signal_processing.md?raw';
+import engineeringDrawing from '../content/engineering_drawing.md?raw';
+import ethicsAndLaw from '../content/ethics_and_law.md?raw';
 import java from '../content/java.md?raw';
 import linearAlgebra from '../content/linear_algebra.md?raw';
 import management from '../content/management.md?raw';
 import mao from '../content/mao.md?raw';
+import marxistPrinciples from '../content/marxist_principles.md?raw';
+import microcomputer from '../content/microcomputer.md?raw';
+import modernChineseHistory from '../content/modern_chinese_history.md?raw';
 import probabilityStatistics from '../content/probability&statistics.md?raw';
 import campusSurvival from '../content/campus_survival.md?raw';
 import colleges from '../content/colleges.md?raw';
 import unix from '../content/unix.md?raw';
+import universityPhysics from '../content/university_physics.md?raw';
 import userManual from '../content/user_manual.md?raw';
 import web from '../content/web.md?raw';
 import { eieCoursePages } from './eie';
@@ -107,6 +122,21 @@ export const librarySections: LibrarySection[] = [
         keywords: ['Java语言程序设计', 'JAVA程序设计', '期末考试', 'A卷', 'B卷'],
       },
       ...eieCoursePages,
+      { id: 'c-language', title: 'C 语言程序设计', summary: '考试范围、题库、历年试卷、习题解答与课件。', content: cLanguage, legacyPath: 'docs/c-language.md', keywords: ['C语言', '程序设计', '公共C题库'] },
+      { id: 'engineering-drawing', title: '工程制图 B', summary: '复习资料、历年试卷、习题解答与课件。', content: engineeringDrawing, legacyPath: 'docs/engineering-drawing.md', keywords: ['工程制图', '机械制图', '工图'] },
+      { id: 'microcomputer', title: '微机原理', summary: '复习、考试、实验、教材与接口技术课件。', content: microcomputer, legacyPath: 'docs/microcomputer.md', keywords: ['微机原理与接口技术', '8086', '汇编'] },
+      { id: 'control-engineering', title: '控制工程', summary: '自动控制原理试卷、题库、习题解答与课件。', content: controlEngineering, legacyPath: 'docs/control-engineering.md', keywords: ['自动控制原理', '自控'] },
+      { id: 'complex-functions', title: '复变函数与积分变换', summary: '2009-2025 年试卷、复习资料、习题解答与课件。', content: complexFunctions, legacyPath: 'docs/complex-functions.md', keywords: ['复变函数', '积分变换'] },
+      { id: 'digital-electronics', title: '数字电子技术', summary: '复习资料、题库、历年试卷、习题解答与课件。', content: digitalElectronics, legacyPath: 'docs/digital-electronics.md', keywords: ['数电', '数字电路'] },
+      { id: 'analog-electronics', title: '模拟电子技术', summary: '复习、题库、试卷、仿真文件、习题答案与课件。', content: analogElectronics, legacyPath: 'docs/analog-electronics.md', keywords: ['模电', '模拟电路', 'Multisim'] },
+      { id: 'circuit', title: '电路', summary: '复习资料、历年试卷、习题解答与课程课件。', content: circuit, legacyPath: 'docs/circuit.md', keywords: ['电路原理'] },
+      { id: 'university-physics', title: '大学物理 A', summary: '课后习题与 2018 级课程课件。', content: universityPhysics, legacyPath: 'docs/university-physics.md', keywords: ['大学物理', '大物'] },
+      { id: 'college-english', title: '大学英语', summary: '课程资料、课文翻译与配套习题答案。', content: collegeEnglish, legacyPath: 'docs/college-english.md', keywords: ['新视野大学英语', '读写', '视听说'] },
+      { id: 'college-chinese', title: '大学语文', summary: '课程复习与阅读资料。', content: collegeChinese, legacyPath: 'docs/college-chinese.md' },
+      { id: 'ethics-and-law', title: '思想道德与法治', summary: '2018 年复习资料、题库与往年试题。', content: ethicsAndLaw, legacyPath: 'docs/ethics-and-law.md', keywords: ['思修', '思修法基', '思想道德修养与法律基础'] },
+      { id: 'modern-chinese-history', title: '中国近现代史纲要', summary: '课程复习资料。', content: modernChineseHistory, legacyPath: 'docs/modern-chinese-history.md', keywords: ['近代史', '中国近代史纲要'] },
+      { id: 'marxist-principles', title: '马克思主义基本原理', summary: '复习资料、课件与历年试卷。', content: marxistPrinciples, legacyPath: 'docs/marxist-principles.md', keywords: ['马原', '马克思主义基本原理概论'] },
+      { id: 'advanced-mathematics-1', title: '高等数学 I', summary: '章节题库、历年试卷与外校参考试卷。', content: advancedMathematics1, legacyPath: 'docs/advanced-mathematics-1.md', keywords: ['高数AI', '高数上', '高等数学上'] },
       {
         id: 'probability-statistics',
         title: '概率论与数理统计',
