@@ -151,7 +151,7 @@ export const librarySections: LibrarySection[] = [
       },
       { id: 'mao', title: '毛泽东思想和中国特色社会主义理论体系概论', summary: '历年考试资料。', content: mao, legacyPath: 'docs/mao.md' },
       { id: 'advanced-mathematics', title: '高等数学 II', summary: '章节题库、复习范围与历年试卷答案。', content: advancedMathematics, legacyPath: 'docs/advanced_mathematics.md', keywords: ['高数II', '高数AII', '高数BII', '高等数学下'] },
-      { id: 'linear-algebra', title: '线性代数', summary: '历年试卷、课件与习题解答。', content: `${linearAlgebra}\n\n${eieSupplement('linear-algebra')}`, legacyPath: 'docs/linear_algebra.md' },
+      { id: 'linear-algebra', title: '线性代数', summary: '历年试卷、课件与习题解答。', content: linearAlgebra, legacyPath: 'docs/linear_algebra.md' },
     ],
   },
 ];
