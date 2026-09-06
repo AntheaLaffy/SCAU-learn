@@ -64,6 +64,8 @@ pnpm run dev
 - `Pull Request`：如果你已经整理好文件，欢迎直接发 PR。
 - `QQ 群`：1022664148
 
+> [开发者手册](./.website/src/content/developer_manual.md)
+
 ## 资料来源
 
 部分课程资料整理自 [lib-SCAU](https://github.com/libscau/lib-SCAU)，原仓库采用 Unlicense。资料本身的相关权利仍归原作者所有。
