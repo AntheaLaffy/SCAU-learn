@@ -2,6 +2,12 @@
 
 # 课程介绍
 
+这里收录了管理学课程的考点、2024 年 A 卷与配套参考答案。
+
+## 📚 复习资料
+
+- <a href="https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/管理学/考点.pdf">管理学考点</a>
+
 ## 📄 试卷
 
 - <a href="https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/管理学/2024A卷.pdf">2024A卷</a>

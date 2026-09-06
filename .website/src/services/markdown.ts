@@ -30,7 +30,7 @@ export function renderMarkdown(source: string, target: HTMLElement): void {
       link.rel = 'noreferrer';
     }
 
-    if (/\.(pdf|docx?|pptx?|xlsx?|md)(?:$|[?#])/i.test(href)) {
+    if (/\.(pdf|docx?|pptx?|xlsx?|md|zip|rar|jpe?g|png)(?:$|[?#])/i.test(href)) {
       link.classList.add('resource-link');
     }
   });

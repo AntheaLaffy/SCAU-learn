@@ -1,28 +1,38 @@
-<p style="color: #888; font-size: 0.8rem; margin-left: 10px;">🏠 /考试与作业/高等数学  </p>
-
 # 课程介绍
 
-这里收录了高等数学 BII（理工类）2022-2025 年的试卷、答案与复习范围，可供参考。
+这里收录高等数学 II（高数 AII / BII）的复习范围、历年试卷及章节题库。
 
-## 📚 复习资料
+## 复习范围
 
-- <a href="https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/高等数学/高等数学BII（理工类）复习范围.pdf">高等数学 BII（理工类）复习范围</a>
+- [BII（理工类）复习范围（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/高等数学/复习资料/复习范围（BII理工类）.pdf>)
 
-## 📄 试卷与答案
+## 历年试卷及答案
 
-- <a href="https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/高等数学/2022-2023高等数学BII(理工类)A卷+答案.pdf">高数22-23年下学期</a>
-- <a href="https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/高等数学/2023-2024年春高数BII（理工类）试卷+答案(A卷).pdf">高数23-24年下学期</a>
-- <a href="https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/高等数学/2024-2025高数B2理工类（A卷）试卷+答案.pdf">高数24-25年下学期</a>
+### 2011-2017
 
-<div style="display:flex;justify-content:space-between;margin-top:50px;padding: 0 20px;">
-<button class="nav-btn" data-goto="-1">上一章 ⬅️</button>
-<button class="nav-btn" data-goto="+1">下一章 ➡️</button>
-</div>
+- [2011 年试卷及参考答案（DOC）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/高等数学/历年试卷/2011/试卷及参考答案.doc>)
+- [2012 年试卷及参考答案，2014 修订版（DOC）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/高等数学/历年试卷/2012/试卷及参考答案（2014修订）.doc>)
+- [2013 年试卷及参考答案（DOC）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/高等数学/历年试卷/2013/试卷及参考答案.doc>)
+- [2014 年试卷及参考答案（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/高等数学/历年试卷/2014/试卷及参考答案.pdf>)
+- [2015 年试卷及参考答案（DOC）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/高等数学/历年试卷/2015/试卷及参考答案.doc>)
+- [2016 年试卷及参考答案（DOC）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/高等数学/历年试卷/2016/试卷及参考答案.doc>)
+- [2017 年试卷及参考答案（DOC）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/高等数学/历年试卷/2017/试卷及参考答案.doc>)
+
+### 2022-2025
+
+- [2022-2023 学年 BII（理工类）A 卷及参考答案（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/高等数学/历年试卷/2022-2023/A卷及参考答案.pdf>)
+- [2023-2024 学年 BII（理工类）A 卷及参考答案（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/高等数学/历年试卷/2023-2024/A卷及参考答案.pdf>)
+- [2024-2025 学年 BII（理工类）A 卷及参考答案（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/高等数学/历年试卷/2024-2025/A卷及参考答案.pdf>)
+
+## 章节题库
+
+- [第 6 章题库（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/高等数学/章节题库/第06章.pdf>)
+- [第 7 章题库（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/高等数学/章节题库/第07章.pdf>)
+- [第 8 章题库（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/高等数学/章节题库/第08章.pdf>)
+- [第 9 章题库（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/高等数学/章节题库/第09章.pdf>)
+- [第 10 章题库（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/高等数学/章节题库/第10章.pdf>)
+- [第 11 章题库（PDF）](<https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/高等数学/章节题库/第11章.pdf>)
 
 ---
 
-<p style="text-align: center; color: #777; margin-top: 50px; font-size: 0.9rem;">
-    版权声明： 网站由如月风铃 "nicolesandwich@outlook.com" 独立完成<br>
-    一切学习资料均来源于华南农业大学公开资料，若有侵权请告知，立即删除
-    （本部分是我https://github.com/yuanarcsin提交的，欢迎关注doge）
-</p>
+资料仅供学习交流使用，具体考试范围请以任课教师通知为准。

@@ -13,6 +13,7 @@ import colleges from '../content/colleges.md?raw';
 import unix from '../content/unix.md?raw';
 import userManual from '../content/user_manual.md?raw';
 import web from '../content/web.md?raw';
+import { eieCoursePages, eieSupplement } from './eie';
 import type { LibraryPage, LibrarySection, SearchResult } from '../types';
 
 export const librarySections: LibrarySection[] = [
@@ -70,7 +71,7 @@ export const librarySections: LibrarySection[] = [
       {
         id: 'unix',
         title: 'Unix',
-        summary: '课程课件、实验与历年考试资料。',
+        summary: '考试范围、历年试卷与课后习题答案。',
         content: unix,
         legacyPath: 'docs/unix.md',
         textbook: {
@@ -95,8 +96,8 @@ export const librarySections: LibrarySection[] = [
           coverHeight: 500,
         },
       },
-      { id: 'digital-signal-processing', title: '数字信号处理', summary: '复习提纲、题库与专项练习。', content: digitalSignalProcessing, legacyPath: 'docs/digital_signal_processing.md' },
-      { id: 'data-structure', title: '数据结构', summary: '历年试卷与参考答案。', content: dataStructure, legacyPath: 'docs/data_structure.md' },
+      { id: 'digital-signal-processing', title: '数字信号处理', summary: '复习提纲、题库与专项练习。', content: `${digitalSignalProcessing}\n\n${eieSupplement('digital-signal-processing')}`, legacyPath: 'docs/digital_signal_processing.md' },
+      { id: 'data-structure', title: '数据结构', summary: '历年试卷与参考答案。', content: `${dataStructure}\n\n${eieSupplement('data-structure')}`, legacyPath: 'docs/data_structure.md' },
       {
         id: 'java',
         title: 'Java 程序设计',
@@ -105,6 +106,7 @@ export const librarySections: LibrarySection[] = [
         legacyPath: 'docs/java.md',
         keywords: ['Java语言程序设计', 'JAVA程序设计', '期末考试', 'A卷', 'B卷'],
       },
+      ...eieCoursePages,
       {
         id: 'probability-statistics',
         title: '概率论与数理统计',
@@ -148,8 +150,8 @@ export const librarySections: LibrarySection[] = [
         },
       },
       { id: 'mao', title: '毛泽东思想和中国特色社会主义理论体系概论', summary: '历年考试资料。', content: mao, legacyPath: 'docs/mao.md' },
-      { id: 'advanced-mathematics', title: '高等数学', summary: '复习范围与历年试卷答案。', content: advancedMathematics, legacyPath: 'docs/advanced_mathematics.md' },
-      { id: 'linear-algebra', title: '线性代数', summary: '历年试卷、课件与习题解答。', content: linearAlgebra, legacyPath: 'docs/linear_algebra.md' },
+      { id: 'advanced-mathematics', title: '高等数学 II', summary: '章节题库、复习范围与历年试卷答案。', content: advancedMathematics, legacyPath: 'docs/advanced_mathematics.md', keywords: ['高数II', '高数AII', '高数BII', '高等数学下'] },
+      { id: 'linear-algebra', title: '线性代数', summary: '历年试卷、课件与习题解答。', content: `${linearAlgebra}\n\n${eieSupplement('linear-algebra')}`, legacyPath: 'docs/linear_algebra.md' },
     ],
   },
 ];
