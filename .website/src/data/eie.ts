@@ -204,6 +204,27 @@ const courseConfigs: CourseConfig[] = [
     intro: '',
     prefixes: ['数据结构/EIE补充资料/'],
   },
+  {
+    id: 'probability-statistics',
+    title: '概率论与数理统计',
+    summary: '',
+    intro: '',
+    prefixes: ['概率统计/历年试卷/'],
+  },
+  {
+    id: 'linear-algebra',
+    title: '线性代数',
+    summary: '',
+    intro: '',
+    prefixes: ['线性代数/历年试卷/'],
+  },
+  {
+    id: 'advanced-mathematics',
+    title: '高等数学 II',
+    summary: '',
+    intro: '',
+    prefixes: ['高数II/'],
+  },
 ];
 
 const groupOrder = ['复习资料', '题库与练习', '试卷与资料', '答案与解析'];
