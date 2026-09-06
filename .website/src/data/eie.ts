@@ -1,4 +1,5 @@
 import type { LibraryPage } from '../types';
+import complexFunctions from '../content/complex_functions.md?raw';
 
 const RAW_BASE = 'https://github.com/AntheaLaffy/SCAU-learn/raw/refs/heads/main/';
 
@@ -134,6 +135,7 @@ interface CourseConfig {
   prefixes: string[];
   keywords?: string[];
   newCourse?: boolean;
+  content?: string;
 }
 
 const courseConfigs: CourseConfig[] = [
@@ -172,6 +174,7 @@ const courseConfigs: CourseConfig[] = [
     prefixes: ['复变函数/'],
     keywords: ['复变函数', '积分变换'],
     newCourse: true,
+    content: complexFunctions,
   },
   {
     id: 'digital-electronics',
@@ -291,6 +294,7 @@ function resourceGroups(files: string[], headingLevel = '##'): string {
 }
 
 function pageContent(config: CourseConfig): string {
+  if (config.content) return config.content;
   return `# 课程介绍\n\n${config.intro}\n\n${resourceGroups(filesFor(config))}\n\n---\n\n资料仅供学习交流使用，具体考试范围请以任课教师通知为准。`;
 }
 
