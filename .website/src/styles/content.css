@@ -573,6 +573,13 @@
   background: var(--surface-subtle);
 }
 
+.document-view:not(.page-colleges) .markdown-body th:first-child,
+.document-view:not(.page-colleges) .markdown-body td:first-child {
+  width: 1%;
+  min-width: 96px;
+  white-space: nowrap;
+}
+
 .markdown-body hr {
   margin: 32px 0;
   border: 0;

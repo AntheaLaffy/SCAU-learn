@@ -76,6 +76,12 @@
 }
 
 @media (max-width: 620px) {
+  .document-view:not(.page-colleges) .markdown-body th,
+  .document-view:not(.page-colleges) .markdown-body td {
+    padding: 9px 8px;
+    font-size: 14px;
+  }
+
   .content-frame {
     width: min(100% - 28px, var(--content-width));
     padding-top: 28px;
