@@ -3,6 +3,7 @@ import computerNetwork from '../content/computer_network.md?raw';
 import dataStructure from '../content/data_structure.md?raw';
 import developerManual from '../content/developer_manual.md?raw';
 import digitalSignalProcessing from '../content/digital_signal_processing.md?raw';
+import java from '../content/java.md?raw';
 import linearAlgebra from '../content/linear_algebra.md?raw';
 import management from '../content/management.md?raw';
 import mao from '../content/mao.md?raw';
@@ -96,6 +97,14 @@ export const librarySections: LibrarySection[] = [
       },
       { id: 'digital-signal-processing', title: '数字信号处理', summary: '复习提纲、题库与专项练习。', content: digitalSignalProcessing, legacyPath: 'docs/digital_signal_processing.md' },
       { id: 'data-structure', title: '数据结构', summary: '历年试卷与参考答案。', content: dataStructure, legacyPath: 'docs/data_structure.md' },
+      {
+        id: 'java',
+        title: 'Java 程序设计',
+        summary: '2010-2018 年期末试题与参考答案。',
+        content: java,
+        legacyPath: 'docs/java.md',
+        keywords: ['Java语言程序设计', 'JAVA程序设计', '期末考试', 'A卷', 'B卷'],
+      },
       {
         id: 'probability-statistics',
         title: '概率论与数理统计',
